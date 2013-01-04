@@ -2,8 +2,7 @@
 steal.packages( 'modules/auth', 'modules/users' );
 
 steal(
-	'jquery.1.7.1.js'
-).then(
+	'jquery.1.7.1.js',
 	'components/comp4',
 	function() {
 		console.log('program loaded!');
