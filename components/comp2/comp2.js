@@ -1,3 +1,3 @@
 steal( 'components/comp1', function( ){
-	console.log( 'comp2 loaded!' );
+	log( 'comp2 loaded!' );
 } );

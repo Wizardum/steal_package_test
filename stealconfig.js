@@ -3,14 +3,11 @@ steal.config( {
 	amd: true,
 	map: {
 		'*': {
-			'jquery/jquery.js': 'jquery',
-			'can': 'core/can',
-			'core/can/util/util.js': 'core/can/util/jquery/jquery.js',
-			'ext': 'core/extensions'
+			'jquery/jquery.js': 'jquery'
 		}
 	},
 	paths: {
-		'jquery': 'core/can/lib/jquery.1.8.3.js'
+		'jquery': 'components/jquery/jquery.js'
 	},
 	shim: {
 		jquery: {
@@ -18,6 +15,6 @@ steal.config( {
 		}
 	},
 	ext: {
-		mustache: 'core/can/view/mustache/mustache.js'
+
 	}
 } );

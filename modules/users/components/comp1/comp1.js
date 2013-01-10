@@ -1,3 +1,3 @@
 steal( function( ){
-	console.log( 'users comp1 loaded!' );
+	log( 'users comp1 loaded!' );
 } );

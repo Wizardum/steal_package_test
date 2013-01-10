@@ -1,3 +1,3 @@
 steal( function( ){
-	console.log( 'auth comp1 loaded!' );
+	log( 'auth comp1 loaded!' );
 } );
